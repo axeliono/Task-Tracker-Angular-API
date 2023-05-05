@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "apis1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.ApiManagement/service/TaskTrackerAPI/apis/Task-Tracker-Server",
+      "type": "apis.azure"
+    },
+    "mssql1": {
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/tasktrackerappserver/databases/Task_Tracker_DB",
+      "type": "mssql.azure",
+      "connectionId": "TaskTrackerConnectionString",
+      "dynamicId": null
+    }
+  }
+}
